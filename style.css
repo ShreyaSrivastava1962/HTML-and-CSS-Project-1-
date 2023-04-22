@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+   
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #696969;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/pexels-maxyne-barcel-10402282 1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    margin-top: 60px;
+}
+
+.navbar > .navlist{
+
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    color: #ffc233;
+
+}
+
+
+  
+.UpperLogo .items {
+  cursor: pointer;
+}
+
+.sec{
+
+    margin-top: 150px;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+.OrderButton {
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fcf9f9;
+    border: none;
+    padding: 24px 56px ;
+    margin-top: 64px ;
+    cursor: pointer;
+    background-color: #f25b5b;
+    inline-size: auto;
+    
+}
+
+.text {
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 114px;
+    color: #ecb452;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuButton{
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fcf9f9;
+    border: none;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+    background-color: #f25b5b;
+}
+
+.LowerLogo {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
